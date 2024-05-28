@@ -38,6 +38,58 @@
     }
   });
 </script>
+    <style>
+          .video-box {
+    width: 100%;
+    height: 90vh;
+    border-radius: 1.2rem;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlayl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./home2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.play-button {
+    background-color: transparent;
+    border: none;
+   color: #38cb33;
+    cursor: pointer;
+}
+
+.play-button svg{
+    width: 4rem;
+    height: 4rem;
+}
+
+@media (max-width: 768px) {
+    .video-box {
+        width: 100%;
+        height: 28vh;
+        border-radius: 1rem;
+        
+    }
+    
+    
+    .play-button svg{
+    width: 3rem;
+    height: 3rem;
+}
+}
+    </style>
       <!-- Google Tag Manager -->
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
