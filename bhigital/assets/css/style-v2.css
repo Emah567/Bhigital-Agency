@@ -7,7 +7,22 @@
   #div2 {
     display: none; /* Initially hide the second div */
   }
-  
+
+  select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 100%;
+        color: #fff; /* Text color */
+        background-color: grey; 
+        margin-top: 1rem;/* Background color */
+    }
+
+    option {
+        font-size: 16px;
+    }
+
   .services-btn{
       width: 80% !important;
       border-radius: 1rem ! important;
