@@ -50,7 +50,7 @@
    --color-white: #FFFFFF;
    --color-black-rgb: 0, 0, 0;
    --color-black: rgba(var(--color-black-rgb), 1);
-   --color-primary: #70ff4d;
+   --color-primary: crimson;
    --color-primary-dark: #65f242;
    --color-gray: #828282;
    --color-darkgray-rgb: 30, 30, 32;
